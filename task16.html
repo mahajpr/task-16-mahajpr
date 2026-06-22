@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="task16.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Student Management System</h1>
+
+        <input type="text" id="name" placeholder="Student Name">
+        <input type="number" id="age" placeholder="Age">
+        <input type="text" id="dept" placeholder="Department">
+
+        <button onclick="addStudent()">Add Student</button>
+
+        <input type="text" id="search" placeholder ="search student">
+        <button onclick = "searchStudent()">Search</button>
+        <button onclick="saveData()">Save Data</button>
+        <button onclick="loadData()">load data</button>
+
+        <h3>Students</h3>
+        <div class="studentList"></div>
+
+        <h3>JSON Data</h3>
+        <pre id="jsonData"></pre>
+
+        <p id="result"></p>
+        </div>
+    <script src="task16.js"></script>
+</body>
+</html>
