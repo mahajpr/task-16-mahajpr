@@ -14,6 +14,7 @@ let students = [];
                 age: age,
                 department: dept
             };
+            
 
             students.push(student);
 
